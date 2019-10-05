@@ -1,0 +1,35 @@
+{
+  "name": "tools-elevpc-faktura",
+  "version": "1.0.0",
+  "description": "All you need to generate invoices",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/tools-elevpc-faktura.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtfk/tools-elevpc-faktura/issues"
+  },
+  "homepage": "https://github.com/vtfk/tools-elevpc-faktura#readme",
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "devDependencies": {
+    "ava": "2.4.0",
+    "standard": "14.3.1"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "csv2json": "2.0.0",
+    "dotenv": "8.1.0",
+    "jsonwebtoken": "8.5.1"
+  }
+}
