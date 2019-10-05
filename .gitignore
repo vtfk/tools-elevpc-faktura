@@ -69,3 +69,5 @@ typings/
 .next
 
 # Local files
+elever.csv
+elever.json
