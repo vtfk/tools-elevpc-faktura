@@ -15,7 +15,7 @@ KRR_SERVICE_URL=
 KRR_SERVICE_JWT=
 ```
 
-# Usasage
+# Usage
 
 Convert csv to json
 ```
