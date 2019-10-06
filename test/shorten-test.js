@@ -1,5 +1,5 @@
 const test = require('ava')
-const shortenName = require('../lib/shorten-name')
+const shortenName = require('../lib/shorten')
 
 test('It does nothing if short name', t => {
   const name = 'Bob Bob Bobsson'

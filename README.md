@@ -11,6 +11,8 @@ AGREEMENT_SERVICE_URL=
 AGREEMENT_SERVICE_SECRET=
 DSF_SERVICE_URL=
 DSF_SERVICE_SECRET=
+KRR_SERVICE_URL=
+KRR_SERVICE_JWT=
 ```
 
 # Usasage
@@ -28,6 +30,11 @@ $ npm run add:invoiceuid
 Add dsf data
 ```
 $ npm run add:dsfdata
+```
+
+Add recipient
+```
+$ npm run add:recipient
 ```
 
 # License

@@ -8,6 +8,7 @@
     "convert": "node utils/convert-elever.js",
     "add:invoiceuid": "node utils/add-invoice-uid.js",
     "add:dsfdata": "node utils/add-dsf-data.js",
+    "add:recipient": "node utils/add-recipient.js",
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
