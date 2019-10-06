@@ -13,5 +13,6 @@
   }
   logger('info', ['utils', 'add-invoice-uid', 'got', data.length, 'students with invoice uid'])
   await writeFile('data/elever-with-invoice-uid.json', JSON.stringify(data, null, 2), 'utf-8')
+  await writeFile('data/elever-with-invoice-uid-copy.json', JSON.stringify(data, null, 2), 'utf-8')
   logger('info', ['utils', 'add-invoice-uid', 'finished'])
 })()
