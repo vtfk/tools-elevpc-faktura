@@ -71,3 +71,4 @@ typings/
 # Local files
 elever.csv
 elever.json
+elever-with-invoice-uid.json
