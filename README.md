@@ -11,6 +11,10 @@ AGREEMENT_SERVICE_URL=
 AGREEMENT_SERVICE_SECRET=
 DSF_SERVICE_URL=
 DSF_SERVICE_SECRET=
+MONGODB_CONNECTION=
+MONGODB_COLLECTION=
+MONGODB_COSMOS_RUS=
+MONGODB_NAME=
 KRR_SERVICE_URL=
 KRR_SERVICE_JWT=
 ```
@@ -40,6 +44,11 @@ $ npm run add:recipient
 Generate invoice
 ```
 $ npm run generate:invoice
+```
+
+Import invoices to system
+```
+$ npm run import:invoice
 ```
 
 # License

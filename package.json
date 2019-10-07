@@ -10,6 +10,7 @@
     "add:dsfdata": "node utils/add-dsf-data.js",
     "add:recipient": "node utils/add-recipient.js",
     "generate:invoice": "node utils/generate-invoice.js",
+    "import:invoice": "node utils/import-invoice.js",
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
@@ -39,6 +40,7 @@
     "get-age": "1.0.1",
     "is-valid-fodselsnummer": "3.0.5",
     "jsonwebtoken": "8.5.1",
+    "mongodb": "3.3.2",
     "tfk-dsf-normalize-contact": "3.1.2",
     "then-sleep": "1.0.1"
   }
