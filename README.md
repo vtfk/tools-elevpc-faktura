@@ -37,6 +37,11 @@ Add recipient
 $ npm run add:recipient
 ```
 
+Generate invoice
+```
+$ npm run generate:invoice
+```
+
 # License
 
 [MIT](LICENSE)
