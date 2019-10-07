@@ -47,6 +47,7 @@
       errors.push(student)
     }
     await writeFile('data/recipients.json', JSON.stringify(data, null, 2), 'utf-8')
+    await writeFile('data/recipients-copy.json', JSON.stringify(data, null, 2), 'utf-8')
     await writeFile('data/elever-with-dsf-data-copy.json', JSON.stringify(students, null, 2), 'utf-8')
     await writeFile('data/errors.json', JSON.stringify(errors, null, 2), 'utf-8')
     logger('info', ['utils', 'add-recipient', 'a quick nap'])

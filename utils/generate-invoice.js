@@ -5,5 +5,6 @@
   const students = require('../data/recipients.json')
   const invoices = students.map(setupInvoice)
   await writeFile('data/invoices.json', JSON.stringify(invoices, null, 2), 'utf-8')
+  await writeFile('data/invoices-copy.json', JSON.stringify(invoices, null, 2), 'utf-8')
   logger('info', ['utils', 'generate-invoice', 'finished'])
 })()

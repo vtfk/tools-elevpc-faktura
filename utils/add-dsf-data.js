@@ -67,6 +67,7 @@
       errors.push({ ...student, isValid })
     }
     await writeFile('data/elever-with-dsf-data.json', JSON.stringify(data, null, 2), 'utf-8')
+    await writeFile('data/elever-with-dsf-data-copy.json', JSON.stringify(data, null, 2), 'utf-8')
     await writeFile('data/elever-with-invoice-uid-copy.json', JSON.stringify(elever, null, 2), 'utf-8')
     await writeFile('data/errors.json', JSON.stringify(errors, null, 2), 'utf-8')
     logger('info', ['utils', 'add-dsf-data', 'going to sleep'])
