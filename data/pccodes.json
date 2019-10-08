@@ -1,32 +1,26 @@
 {
   "PC17": {
-    "partNumber": 103,
-    "amount": 1032,
-    "note": "Leasing elev-PC skoleåret 2018-2019"
+    "partNumber": 107,
+    "amount": 1051
   },
   "PC17x": {
-    "partNumber": 104,
-    "amount": 2046,
-    "note": "Leie av elev-PC skoleåret 2017-2019"
+    "partNumber": 107,
+    "amount": 1051
   },
   "PC17y": {
-    "partNumber": 104,
-    "amount": 2046,
-    "note": "Leie av elev-PC skoleåret 2017-2019"
+    "partNumber": 107,
+    "amount": 1051
   },
   "PC18": {
-    "partNumber": 103,
-    "amount": 1032,
-    "note": "Leasing elev-PC skoleåret 2018-2019"
+    "partNumber": 107,
+    "amount": 1051
   },
   "PC18IF": {
-    "partNumber": 103,
-    "amount": 1032,
-    "note": "Leasing elev-PC skoleåret 2018-2019"
+    "partNumber": 107,
+    "amount": 1051
   },
   "PC19": {
-    "partNumber": 103,
-    "amount": 1051,
-    "note": "Leasing elev-PC skoleåret 2019-2020"
+    "partNumber": 107,
+    "amount": 1051
   }
 }
