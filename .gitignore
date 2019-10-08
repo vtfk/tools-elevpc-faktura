@@ -71,6 +71,7 @@ typings/
 # Local files
 elever.csv
 elever.json
+elever-copy.json
 elever-with-invoice-uid.json
 elever-with-invoice-uid-copy.json
 elever-with-dsf-data.json
