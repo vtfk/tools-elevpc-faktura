@@ -70,6 +70,7 @@ typings/
 
 # Local files
 elever.csv
+larlinger.csv
 elever.json
 elever-copy.json
 elever-with-invoice-uid.json

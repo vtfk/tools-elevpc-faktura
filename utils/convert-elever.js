@@ -2,8 +2,14 @@
   const { writeFile } = require('fs').promises
   const csv = require('csvtojson')
   const logger = require('../lib/logger')
-  const data = await csv().fromFile('data/elever.csv')
-  logger('info', ['tools', 'convert-elever', 'got', data.length, 'elever'])
+  const data = []
+  const elever = await csv().fromFile('data/elever.csv')
+  const larlinger = await csv().fromFile('data/larlinger.csv')
+  logger('info', ['tools', 'convert-elever', 'got', elever.length, 'elever'])
+  logger('info', ['tools', 'convert-elever', 'got', larlinger.length, 'larlinger'])
+  data.push(...elever)
+  data.push(...larlinger)
+  logger('info', ['tools', 'convert-elever', 'got', data.length, 'students'])
   const duplicates = []
   const uniques = data.reduce((accumulator, current) => {
     const fnrs = accumulator.map(item => item.fnr)
