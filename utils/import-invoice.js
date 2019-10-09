@@ -19,7 +19,7 @@
   logger('info', ['utils', 'import-invoices', 'payload', 'limit', payloadLimit, 'start'])
   while (invoices.length > 0) {
     const payload = []
-    while (getPayloadSize(payload) < payloadLimit) {
+    while (getPayloadSize(payload) < payloadLimit && invoices.length > 0) {
       const item = invoices.pop()
       payload.push(item)
     }
@@ -31,7 +31,7 @@
     const result = await collection.insertMany(payload)
     logger('info', ['utils', 'import-invoices', 'payload', 'inserted', result])
     logger('info', ['utils', 'import-invoices', 'invoices', invoices.length, 'remains'])
-    await writeFile('data/invoices-copy.json', JSON.stringify(invoices), 'utf-8')
+    await writeFile('data/invoices-copy.json', JSON.stringify(invoices, null, 2), 'utf-8')
     await sleep(sleepTime)
   }
 
