@@ -21,6 +21,7 @@
     const payload = []
     while (getPayloadSize(payload) < payloadLimit && invoices.length > 0) {
       const item = invoices.pop()
+      item.shrdKey = process.env.MONGODB_SHARD_KEY
       payload.push(item)
     }
     if (payload.length > 1) {
