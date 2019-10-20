@@ -1,6 +1,6 @@
 {
   "name": "tools-elevpc-faktura",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "All you need to generate invoices",
   "main": "index.js",
   "scripts": {
