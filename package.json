@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/vtfk/tools-elevpc-faktura#readme",
   "engines": {
-    "node": ">=10.16.3"
+    "node": ">=10.17.0"
   },
   "devDependencies": {
     "ava": "2.4.0",
