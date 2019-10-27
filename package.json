@@ -9,6 +9,7 @@
     "add:invoiceuid": "node utils/add-invoice-uid.js",
     "add:dsfdata": "node utils/add-dsf-data.js",
     "add:recipient": "node utils/add-recipient.js",
+    "errors:rerun": "node utils/errors-rerun.js",
     "generate:invoice": "node utils/generate-invoice.js",
     "import:invoice": "node utils/import-invoice.js",
     "standard-fix": "standard --fix",
