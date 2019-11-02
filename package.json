@@ -11,7 +11,9 @@
     "add:recipient": "node utils/add-recipient.js",
     "errors:rerun": "node utils/errors-rerun.js",
     "generate:invoice": "node utils/generate-invoice.js",
+    "generate:invoice:reruns": "node utils/reruns-generate-invoice.js",
     "import:invoice": "node utils/import-invoice.js",
+    "import:invoice:reruns": "node utils/reruns-import-invoice.js",
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
@@ -42,6 +44,7 @@
     "is-valid-fodselsnummer": "3.0.5",
     "jsonwebtoken": "8.5.1",
     "mongodb": "3.3.3",
+    "node-tesseract-ocr": "1.0.0",
     "tfk-dsf-normalize-contact": "3.1.2",
     "then-sleep": "1.0.1"
   }
